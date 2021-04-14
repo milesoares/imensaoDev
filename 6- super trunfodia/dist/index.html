@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon - Super Trunfo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>  
+    <div class="container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png" width="600px" height="">
+        <h1 class="page-title">Super Trunfo</h1>
+        
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <div class="wrapper">
+                <div id="placar"></div>
+                <div id="quantidade-cartas"></div>
+                <div id="cartas">
+                    <div id="carta-jogador" class="carta"></div>
+                    <div id="carta-maquina" class="carta"></div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                    disabled="false">Jogar</button>
+            </div>
+            <div id="resultado"></div>
+            <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima rodada</button>
+        </form>
+    </div>
+</body>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>

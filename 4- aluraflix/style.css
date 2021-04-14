@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    text-align:center;
+    background-image: url('https://occ-0-1723-92.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABfhWmBsWYCQSNQK6pUjeCCAqJM2eIPu-hue31EFfYlCmlpM7maaMwDkbdKinMwMr21b-jwQwWvHykLcgX8SVwpnoZRpu.jpg?r=166');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    border: 0;
+    color: #ffffff;
+    margin: 0 0 5px;
+    background: #DA1E26;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+    
+  .page-logo {
+    width: 150px;
+  }
+  
+  .logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+  }
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #DA1E26;
+    font-weight:bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity:.8;
+  }

@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 10px;
+  background-image: url('https://image.winudf.com/v2/image1/Y29tLk1vbmV5TGl2ZVdhbGxwYXBlcm5uX3NjcmVlbl82XzE1NjcwMDUyODRfMDA0/screen-6.jpg?fakeurl=1&type=.jpg');
+  background-color: #000000;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  background-color: #61a729;
+  margin-top: 5px;
+}

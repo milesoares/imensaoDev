@@ -1,0 +1,59 @@
+body{
+  background-color: #0097a7;
+  font-family: 'Open Sans';
+}
+
+section {
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top:100px;
+  background-color:white;
+  padding:15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+ol{
+  padding-inline-start: 10px;
+}
+section h1 {
+  font-size: 30px;
+  text-align: center
+}
+
+section li {
+  list-style-type: none;
+  border-left: 4px solid #1e7f9d;
+  margin: 0 0 10px;
+  background-color: #dcf4ff;
+  padding-inline-start: 10px;
+}
+
+header {
+  background-image: url('https://gamewith-en.akamaized.net/article/thumbnail/rectangle/19499.png');
+  background-size:cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color:#b3e5fc;  
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50%);
+  border: 8px solid white;
+}
